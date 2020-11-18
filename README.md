@@ -2,6 +2,7 @@
 
 ## Today's Agenda
 
+- Big Activity
 - Intro to Constructors
 - Function Constructors
 - Factory Functions
