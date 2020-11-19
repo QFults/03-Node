@@ -1,4 +1,5 @@
 const inquirer = require('inquirer')
+const chalk = require('chalk')
 
 const foods = ['hotdog', 'hamburger', 'pizza', 'sandwich', 'doughnut', 'bacon']
 
@@ -43,7 +44,7 @@ const round = () => {
 
       } else {
         guesses--
-        console.log(`Incorrect Guess! ${guesses} guesses left`)
+        console.log(chalk.red(`Incorrect Guess! ${guesses} guesses left`))
 
         if (guesses < 1) {
           console.log(`Game over! The word was | ${chosen} |`)
