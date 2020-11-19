@@ -29,6 +29,14 @@
 
 // const User = (name, email, phone, address) => ({ name, email, phone, address })
 
+// const Admin = (name, email, phone, address) => ({
+//   ...User(name, email, phone, address),
+//   isAdmin: true
+// })
+
+// let admin = Admin('John Doe', 'johndoe@gmail.com', 1234567890, '123 Main St')
+// console.log(admin)
+
 // let user = User('John Doe', 'johndoe@gmail.com', 1234567890, '123 Main St')
 // let user2 = User('Jane Doe', 'janedoe@gmail.com', 0987654321, '321 South St')
 
